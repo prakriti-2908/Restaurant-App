@@ -1,0 +1,122 @@
+/*for small phones*/
+@media only screen and (max-width: 480px){
+    .main-nav{display: none;}
+    body{
+        font-size: 70% !important;
+        margin-bottom: 13px;
+    }
+    .cities{display: none;}
+    section{
+        margin-top: 400px;
+        max-height: 1200px;
+    }
+    .section-testimonials{
+        max-height: 2000px !important;
+        
+    }
+    .customers div{
+        margin: 0;
+        padding: 0%;
+    }
+    blockquote{
+        margin-top: -3px;
+    }
+}
+
+/*for small tablets*/
+@media only screen and (max-width: 767px){
+    body{font-size: -70% !important;}
+    .steps{font-size: 14px;}
+    .btn-app img{
+        width: 100px !important;
+    }
+    .last{
+        height: 227px;
+    }
+    .form{
+        min-width: 800px !important;
+        font-size: -5px;
+        margin-left: 0px !important;
+    }
+    }
+
+/*for big tablets*/
+@media only screen and (max-width: 1023px){
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    body{
+        font-size: 18px;
+    }
+    section{padding: 60px 0;}
+    .steps{margin-top: 10px;}
+    .steps:last-child{margin-top: 10px;}
+    .work-step{margin-bottom: 40px;}
+    .work-step:last-of-type{margin-bottom: 60px;}
+    .phone{width: 50%;}
+    .small-icon{
+        width: 17px;
+        margin-right: 5px;
+    }
+    .city{font-size: 90%;}
+    .plan-box{
+        width: 100%;
+        margin-left: 15%;
+    }
+    .customers{
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+    .section-testimonials:first-child{
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+    .form{
+        min-width: 500px;
+        margin-left: 10%;
+    }
+    .form div{
+        font-size: 95%;
+    }
+    .btn-app img{
+        width: 150px;
+    }
+    .plan-box div{
+        width: 70%;
+        font-size: 80%;
+        margin-left: 10px;
+
+    }
+    .plan-price{
+        font-size: 250%;
+    }
+    .form{
+        width: 80%;
+    }
+}
+
+/*for laptops*/
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{
+        padding: 0 2%;
+    }
+    section{
+        min-height: 700px;
+    }
+    .section-features{
+        font-size: 80%;
+        margin-bottom: -20%;
+    }
+    .section-features div{
+        /* margin-right: 1px; */
+        margin-top: 1px;
+    }
+
+}
